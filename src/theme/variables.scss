@@ -6,6 +6,9 @@
 $font-path: "../assets/fonts";
 
 
+//gradient 
+@import './gradient-mixins';
+
 // The app direction is used to include
 // rtl styles in your app. For more info, please see:
 // http://ionicframework.com/docs/theming/rtl-support/
@@ -41,6 +44,14 @@ $colors: (
   dark:       #222
 );
 
+
+
+//Shared Variables
+$text-color:         white !default;
+$link-color:         color($colors, light) !default;
+$tabs-md-tab-icon-color-active: green;
+$tabs-md-tab-font-size : 0.8em;
+$tabs-md-tab-icon-size : 1.2em;
 
 // App iOS Variables
 // --------------------------------------------------
